@@ -1,0 +1,24 @@
+{
+  "kullanicilar": [
+    {
+      "kullaniciAdi": "admin",
+      "sifre": "admin123",
+      "perm": 1
+    },
+    {
+      "kullaniciAdi": "Moderatör",
+      "sifre": "admin1111",
+      "perm": 3
+    },
+    {
+      "kullaniciAdi": "civai",
+      "sifre": "civ",
+      "perm": 2
+    },
+    {
+      "kullaniciAdi": "anonim",
+      "sifre": "berat",
+      "perm": 3
+    }
+  ]
+}

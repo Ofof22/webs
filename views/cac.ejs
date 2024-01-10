@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitaplar</title>
+</head>
+<body>
+    <h1>Kitaplar</h1>
+
+    <% if (kitaplar.length > 0) { %>
+        <ul>
+            <% kitaplar.forEach((kitap) => { %>
+                <li>
+                    <h3><%= kitap.kitapAdi %></h3>
+                    <p>Yazar: <%= kitap.kitapYazari %></p>
+                    <!-- Diğer kitap bilgilerini ekleyebilirsiniz -->
+                </li>
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <p>Henüz kitap eklenmemiş.</p>
+    <% } %>
+</body>
+</html>
